@@ -1,0 +1,30 @@
+{
+  "src/lib/components/AllotaxonometerForAll.react.js": {
+    "description": "",
+    "displayName": "AllotaxonometerForAll",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "The allotaxonometer data. Should have the form:\n\n  `[{\"x1\":0,\"y1\":0,\"coord_on_diag\":0,\"cos_dist\":0,\"rank\":\"(1, 1)\",\"rank_L\":[1,1],\"rank_R\":[1,1],\"value\":1,\"types\":\"Mary\",\"which_sys\":\"right\"}...]`"
+      }
+    }
+  }
+}

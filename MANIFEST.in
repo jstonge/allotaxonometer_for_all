@@ -1,0 +1,11 @@
+include allotaxonometer_for_all/allotaxonometer_for_all.min.js
+include allotaxonometer_for_all/allotaxonometer_for_all.min.js.map
+include allotaxonometer_for_all/async-*.js
+include allotaxonometer_for_all/async-*.js.map
+include allotaxonometer_for_all/*-shared.js
+include allotaxonometer_for_all/*-shared.js.map
+include allotaxonometer_for_all/metadata.json
+include allotaxonometer_for_all/package-info.json
+include README.md
+include LICENSE
+include package.json
